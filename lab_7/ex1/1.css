@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: sans-serif;
+}
+
+/* Базовий стиль блоку */
+.block {
+    border: 3px solid black;
+    position: absolute;
+    display: flex;              /* Вмикаємо флекс */
+    justify-content: center;    /* Горизонтальне центрування */
+    align-items: flex-start;        /* Вертикальне центрування */
+    text-align: center;         /* Текст по центру */
+    color: white;
+    padding: 10px;
+}
+
+/* Кольори */
+.green-block {
+    background-color: rgb(64, 151, 191);
+}
+
+.purple-block {
+    background-color: rgb(186, 130, 204);
+}
+
+.small {
+    width: 75px;
+    height: 100px;
+}
+
+.big {
+    width: 150px;
+    height: 100px;
+}
+
+.wide {
+    width: 320px;
+    height: 75px;
+}
+
+/* Позиції */
+#block1 {
+    top: 20px;
+    left: 50px;
+}
+
+#block2 {
+    top: 20px;
+    left: 220px;
+}
+
+#block4 {
+    top: 140px;
+    left: 50px;
+}
